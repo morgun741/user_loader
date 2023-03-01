@@ -37,7 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'adderus'
 ]
+AUTH_USER_MODEL = 'adderus.User'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
